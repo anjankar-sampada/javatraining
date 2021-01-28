@@ -15,7 +15,7 @@ this.phone=phone;
 public int compareTo(Employee em){  
 if(empid==em.empid)  
 return 0;  
-else if(empid>em.empid)  
+else if(empid<em.empid)  
 return 1;  
 else  
 return -1;  
